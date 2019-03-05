@@ -206,15 +206,3 @@ for loops in range(max_loops):
 		state[s].update({’a’:N_bar[s]+a_0});
 		dy=np.asscalar(bar_mu[s]-m_0);
 		state[s].update({'B':np.asscalar(N_bar[s]*state[s].get('bar_sigma') + (N_bar[s]*beta_0*dy*dy)/(N_bar[s]+beta_0)+B_0)});
-   
-       
-   
-		
-
-
-	
-
-
-			
-	
-
